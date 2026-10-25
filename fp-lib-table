@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PAMI_Lib")(type "KiCad")(uri "${KIPRJMOD}/PAMI_Lib.pretty")(options "")(descr ""))
+)

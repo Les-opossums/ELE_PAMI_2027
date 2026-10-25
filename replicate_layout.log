@@ -1,0 +1,34 @@
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 473:Plugin executed on: 'win32'
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 474:Plugin executed with python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:KiCad build version: 10.0.1
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:Plugin version: 5.0.1
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 477:Frame repr: <wx._core.Frame object at 0x0000013DC2C453F0>
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Preparing replicator with C501 as a reference
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 118:getting a list of all footprints on board
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 549:source anchor footprint is 'C501'
+Located on: ['/Motor1/']
+With filenames: ['0200_Motors.kicad_sch']
+With sheet_id:['/Motor1/']
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 556:Corresponding footprints are 
+[('C601', ['/Motor2/']), ('C701', ['/Motor3/']), ('C501', ['/Motor1/'])]
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 568:Showing dialog
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 477:constructing a list of sheets suitable for replication on level:'/Motor1/', file:'0200_Motors.kicad_sch'
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 489:possible dst fps are: ['C601', 'C701', 'C501']
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 507:dst fps are: ['C601', 'C701', 'C501']
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 519:suitable sheets are:[['/Motor2/'], ['/Motor3/']]
+10-17 12:20:19 root 156:possible dst fp: ['C601', 'C701', 'C501']
+10-17 12:20:19 root 160:src nets: ['/Motor1/STEPPER_2B', 'GND', '/Motor1/STEPPER_1A', 'Net-(U501-DIAG)', 'Net-(D502-A)', '+3.3V', 'Net-(U501-SPREAD)', '/Motor1/STEPPER_2A', '12V_VMOT', 'Net-(U501-VCP)', 'Net-(U501-CPO)', 'Net-(U501-CPI)', 'Net-(U501-5VOUT)', 'Net-(U501-STDBY)', '', '/Motor1/DRV_nEN', '/Motor1/UART_AD0', '/Motor1/UART_AD1', 'Net-(U501-INDEX)', 'Net-(U501-CLK)', '/MCU/MOT_UART_RX', '/MCU/M1_STEP', 'unconnected-(U501-VREF-Pad17)', '/MCU/M1_DIR', '/Motor1/STEPPER_1B', 'Net-(U501-BRA)', 'Net-(U501-BRB)', '/MCU/MOT_UART_TX']
+10-17 12:20:19 root 161:norm nets: ['', '+3.3V', '12V_VMOT', 'DRV_nEN', 'GND', 'M1_DIR', 'M1_STEP', 'MOT_UART_RX', 'MOT_UART_TX', 'Net-(-5VOUT)', 'Net-(-BRA)', 'Net-(-BRB)', 'Net-(-CLK)', 'Net-(-CPI)', 'Net-(-CPO)', 'Net-(-DIAG)', 'Net-(-INDEX)', 'Net-(-SPREAD)', 'Net-(-STDBY)', 'Net-(-VCP)', 'Net-(D502-A)', 'STEPPER_1A', 'STEPPER_1B', 'STEPPER_2A', 'STEPPER_2B', 'UART_AD', 'UART_AD', 'unconnected-(U501-VREF-Pad17)']
+10-17 12:20:19 root 169:dst fp: C601, sheet path: /Motor2/, fp path: /Motor2/
+10-17 12:20:19 root 169:dst fp: C701, sheet path: /Motor2/, fp path: /Motor3/
+10-17 12:20:19 root 169:dst fp: C501, sheet path: /Motor2/, fp path: /Motor1/
+10-17 12:20:19 root 169:dst fp: C601, sheet path: /Motor3/, fp path: /Motor2/
+10-17 12:20:19 root 169:dst fp: C701, sheet path: /Motor3/, fp path: /Motor3/
+10-17 12:20:19 root 169:dst fp: C501, sheet path: /Motor3/, fp path: /Motor1/
+10-17 12:20:19 root 193:list of found dst fps: ['C601', 'C701']
+10-17 12:20:19 root 196:list of sheets for listbox: ['/Motor2/ (C601)', '/Motor3/ (C701)']
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1579:Level selected: ['/Motor1/']
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1395:Filtering list of tracks
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:Using frame-relative dialog position
+10-17 12:20:19 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 580:Dialog position: wx.Point(2129, 92)
+10-17 12:20:24 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:User canceled the dialog
