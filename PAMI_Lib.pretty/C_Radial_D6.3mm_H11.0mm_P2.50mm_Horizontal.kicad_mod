@@ -1,0 +1,159 @@
+(footprint "C_Radial_D6.3mm_H11.0mm_P2.50mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.15 7 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8b56c938-f25e-448b-87f9-786a2acc598f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_Radial_D6.3mm_H11.0mm_P2.50mm_Horizontal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b386c4-0c3f-4fa1-a2ba-d56de5f9a9fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "164459de-e4fc-457e-b01b-59d1b6cdf9b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a619f80-a72c-40f2-a71e-a49e77208dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 6.3 14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a6649c7-7d2c-4cf8-9993-b6e57d8f5197")
+	)
+	(fp_rect
+		(start 0 3)
+		(end 0.7 14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a7483f40-b59a-4066-b9d9-5c61bf3faeeb")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 6.3 14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "588ba4af-fe11-49d6-956a-632923e913d7")
+	)
+	(fp_text user "-"
+		(at 1.1 3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c47551b-03a9-4ce6-891d-be3f8932b4ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at 3.7 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa8db483-c08c-460b-9fba-1ca90adf0f10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.15 7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "68afd2f8-1196-4d97-b3c8-9daa368973cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 4.4 1.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3596a2b7-a941-42c4-aecc-5b5c546dac3c")
+	)
+	(pad "2" thru_hole circle
+		(at 1.9 1.5)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "df9fe53c-2262-4787-8cf0-0722fda0738b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/gabri/Desktop/Projects/Footprints/3D Models/Capacitors/B41851_B43851_horizontal/cap_el_horizontal_d6.3_h11_pitch2.5_w0.5.stp"
+		(offset
+			(xyz 3.15 -1.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
