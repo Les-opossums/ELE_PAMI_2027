@@ -5,27 +5,30 @@
 
 ## 🌟 **Overview**
 
-This repository contains the hardware design files for the **PAMI_2027_A1** PCB (Rev B1), designed using **KiCad 10**[cite: 3].
+This repository contains the hardware design files for the **PAMI_2027_A1** PCB (Rev A1), designed using **KiCad 10**.
 
-The board serves as the core control and power unit for the PAMI robot, built around the **Raspberry Pi Pico 2 / RP2350A** microcontroller[cite: 4]. Key features include:
-- **Power Management:** Comprehensive power rails providing 3.3V, 5V, 5V_SW, and 12V_VMOT. Powered by a wide-input battery stage supporting 6V to 9V+ operation with reverse-polarity protection and ideal diode controllers[cite: 5].
-- **Triple Stepper Motor Control:** Driven by dedicated **TMC2209-LA** drivers with UART communication config[cite: 7, 8, 9].
-- **Sensor & Camera Expansion:** Integrated I2C camera multiplexer (`PCA9548ARGE`), LIDAR UART interface, and external sensor inputs[cite: 3, 9].
-- **HMI & Discrete Inputs:** Opto-isolated/comparator-backed button inputs (`DSI_ON`, `DSI_STOP`, `DSI_CORD`, `DSI_TEAM`) via LM393[cite: 6].
+The board serves as the core control and power unit for the PAMI robot, built around the **RP2350A** microcontroller. Key features include:
+- **Power Management:** Power rails providing 3.3V, 5V, 5V_SW, and 12V_VMOT. Powered by a wide-input battery stage supporting 6V to 9V+ operation with reverse-polarity protection and ideal diode controllers.
+- **Triple Stepper Motor Control:** Driven by dedicated **TMC2209-LA** drivers with UART communication config.
+- **Servo Motor Control:** Feetech or classic PWM servo control.
+- **Sensor & Camera Expansion:** Integrated I2C camera multiplexer (`PCA9548ARGE`), LIDAR UART interface, OTOS sensor interface, EYE board interface.
+- **HMI & Discrete Inputs:** Button inputs (`DSI_ON`, `DSI_STOP`, `DSI_CORD`, `DSI_TEAM`).
+- **And more!:** USB programming, integrated memory, addressable RGB LED and debug interface.
+- **Dimensions:** All in a 65 x 65 mm board !
 
-![screenshot](Pictures/PAMI_TOP.png)
+![](Pictures/PAMI_ANGLE.png)
 ---
 
-## 🏗️ **Hardware Design & Resources**
+## 🤖 **Hardware Design & Resources**
 
 The hardware was designed using **KiCad 10.0.1**[cite: 3]. 
 
 ### **Schematic Sheets Structure**
-* **`0100_MCU.kicad_sch`**: Microcontroller core (RP2350A, W25Q128 external flash, decoupling, and header breakouts)[cite: 4].
-* **`0200_Motors.kicad_sch`**: Triple TMC2209 stepper motor driver stages (`Motor1`, `Motor2`, `Motor3`)[cite: 7, 8, 9].
-* **`0300_I2C_CAM.kicad_sch`**: PCA9548ARGE I2C bus switch/multiplexer for multi-camera management[cite: 9].
+* **`0100_MCU.kicad_sch`**: Microcontroller core (RP2350A, W25Q128 external flash, decoupling, and header breakouts).
+* **`0200_Motors.kicad_sch`**: Triple TMC2209 stepper motor driver stages (`Motor1`, `Motor2`, `Motor3`).
+* **`0300_I2C_CAM.kicad_sch`**: PCA9548ARGE I2C bus switch/multiplexer for multi-camera management.
 * **`0400_IOEXT.kicad_sch`**: I/O adaptation stage, LM393 button inputs, and WS2812B RGB LED driver[cite: 6].
-* **`0500_Power.kicad_sch`**: Power architecture featuring LM73100 ideal diodes, MPM3630 5V regulator, TPS61088 12V boost converter, and TLV76733 3.3V LDO[cite: 5].
+* **`0500_Power.kicad_sch`**: Power architecture featuring LM73100 ideal diodes, MPM3630 5V regulator, TPS61088 12V boost converter, and TLV76733 3.3V LDO.
 
 ---
 
@@ -58,3 +61,7 @@ The following table details the pin assignments on the main **RP2350A MCU** for 
 | **GPIO 29** | PWM / Output | `PWM_LED` | RGB LED / Status PWM Output[cite: 4] |
 
 ---
+## 📸 **Photos**
+
+![screenshot](Pictures/PAMI_TOP.png)
+![screenshot](Pictures/PAMI_BOT.png)
